@@ -1,32 +1,46 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TUGW0SrP)
-# Welcome to the HTML5 Basics Assignment repository! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic webpage with text, images, and links.">
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-This assignment is designed to help you build foundational knowledge of HTML5, understand its structure, and practice creating web page content using semantic elements.
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This is a simple webpage to demonstrate basic HTML structure. .</p>
+        <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+    </section>
 
-## Learning Objectives
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>SEO Optimization</li>
+            <li>Content Creation</li>
+        </ul>
+    </section>
 
-By completing this assignment, you will:
+    <article id="contact">
+        <h2>Contact Us</h2>
+        <p>If you would like to get in touch, feel free to <a href="mailto:contact@example.com">email us</a>.</p>
+    </article>
 
-  Understand the structure and purpose of HTML5 in web development.
-  Learn to create basic web page content using core HTML5 elements.
-  Explore semantic HTML elements and their benefits for readability and SEO.
-  Gain a basic understanding of accessibility and SEO best practices in HTML.
-  
-## Assignment Content
-  1. HTML5 Basics
-Learn the structure of an HTML document (e.g., <!DOCTYPE html>, <html>, <head>, <body>).
-Explore core elements such as headings, paragraphs, lists, links, and images.
-  2. Semantic HTML
-Introduction to semantic tags like <header>, <footer>, <nav>, <section>, and <article>.
-Learn how semantic elements improve content readability and support SEO.
-  3. Accessibility and SEO Basics
-Understand the importance of accessible HTML and SEO-friendly practices.
-Use attributes like alt, title, and semantic structures to improve usability.
-
-## Activities
-
-Creating a Simple Webpage: Design a basic webpage that includes text, images, and links.
-Use common HTML tags like h1, p, a, img, and ul or ol.
-Structure a webpage with semantic tags such as header, footer, nav, section, and article.
-Ensure the content is well-organized for readability and SEO.
+    <footer>
+        <p>&copy; 2024 Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
